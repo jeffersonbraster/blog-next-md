@@ -23,9 +23,9 @@ const Header = () => {
               Blog
             </a>
           </Link>
-          <Link href="/blog">
+          <Link href="/sobre">
             <a className="mx-5 cursor-pointer capitalize hover:text-indigo-300">
-              About
+              Sobre
             </a>
           </Link>
         </nav>
