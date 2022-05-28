@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import matter from "gray-matter";
 import Layout from "../../components/Layout";
 import Post from "../../components/Post";
