@@ -1,16 +1,16 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Layout from "../../../components/Layout";
-import Post from "../../../components/Post";
-import Pagination from "../../../components/Pagination";
-import { sortByDate } from "../../../utils";
-import { POSTS_PER_PAGE } from "../../../config";
+import Layout from "@components/Layout";
+import Post from "@components/Post";
+import Pagination from "@components/Pagination";
+import { sortByDate } from "@utils/index";
+import { POSTS_PER_PAGE } from "@config/index";
 
 export default function BlogPage({ posts, numPages, currentPage }) {
   return (
     <Layout>
-      <h1 className="text-5xl border-b-4 p-5 font-bold">Blog</h1>
+      <h1 className="text-5xl border-b-4 p-5 font-bold">Todos os Blogs</h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {posts.map((post, index) => (
